@@ -2,15 +2,15 @@ sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
 
-export
+export Q
 AWS_
 ACCESS_
 KEY_
 ID
 =
 AKIAJAJKTK
-XQPUBE3FPQ
-export
+XQPUBE3FP
+export T
 AWS_
 SECRET_
 ACCESS_
@@ -19,4 +19,4 @@ KEY
 mSJq+elEkU
 SRVo6yT2XZ
 Hvk5/PotuH
-p5hWDkLWbT
+p5hWDkLWb
