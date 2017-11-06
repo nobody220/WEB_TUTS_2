@@ -12,7 +12,12 @@ module.exports = function(intentRequest){
 
     // GREETING INTENT
     if(intentName === 'GreetingIntent'){
-      return route.greetUserDirectory(intentRequest);
+      return route.greetUserDirectory();
+    }
+
+    // DASHBOARD
+    if(intentName === 'DashboardIntent'){
+      return route.manageInvocationDirectory(intentRequest);
     }
 
     throw new Error(`Intent name: ${intentName} is not supported.`);
